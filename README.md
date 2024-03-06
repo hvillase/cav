@@ -2,7 +2,6 @@
 Creación Audiovisual con Lenguajes de Programación
 
 ## Recursos
-Hydra  
-SuperCollider  
-Pulsar  
-Strudel  
+[Hydra](https://hydra.ojack.xyz/)  
+[SuperCollider](https://supercollider.github.io/)  
+[Pulsar](https://pulsar-edit.dev/)  
