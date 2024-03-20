@@ -12,3 +12,4 @@ Introducción a la programación visual con Hydra
 [Hydra](https://hydra.ojack.xyz/)  
 [SuperCollider](https://supercollider.github.io/)  
 [Pulsar](https://pulsar-edit.dev/)  
+[Audacity](https://www.audacityteam.org/)  
