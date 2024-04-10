@@ -19,3 +19,5 @@ Funciones Blend y Modulate
 [SuperCollider](https://supercollider.github.io/)  
 [Pulsar](https://pulsar-edit.dev/)  
 [Audacity](https://www.audacityteam.org/)  
+[Atom v.1.27.2 para macos 10.13.6](https://github.com/atom/atom/releases/tag/v1.27.2)
+[Hydra Atom](https://github.com/hydra-synth/atom-hydra)
