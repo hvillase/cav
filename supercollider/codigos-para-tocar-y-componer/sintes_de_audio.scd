@@ -100,16 +100,6 @@ SynthDef(\audio6, {|rate=1, sp=0, at=0.001, sus=1, rel=0.001, pan=0, amp=1, out=
 					Out.ar(out, paneo * env);
 				}).add;
 );
-
-// --- Reverberación - bus 9
-(
-SynthDef(\rev, {|in = 9, mix = 0.4, room = 0.9, damp = 0.1, amp = 1, gate = 1, out = 0|
-	var sen, env;
-	sen = FreeVerb.ar(InFeedback.ar(in, 2), mix, room, damp, amp);
-	env = EnvGen.kr(Env.asr(0.01, 1, 0.1), gate, doneAction: 0);
-	Out.ar(out, sen * env);
-}).add
-);
 );
 
 // Activar efecto
