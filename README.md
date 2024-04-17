@@ -14,6 +14,8 @@ Funciones Geometry y Color
 ## Semana 4
 Sintetizador con sonido  
 Funciones Blend y Modulate  
+## Semana 7
+[SampleTexto2](https://github.com/hvillase/sampletexto2)
 ## Recursos
 [Hydra](https://hydra.ojack.xyz/)  
 [SuperCollider](https://supercollider.github.io/)  

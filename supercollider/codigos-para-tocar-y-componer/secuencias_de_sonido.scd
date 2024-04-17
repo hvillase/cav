@@ -43,7 +43,7 @@ TempoClock.tempo=60/120;
 	\sp, Pseq([0], inf),
 	\amp, 0.8
 ))
-)
+);
 
 (
 ~son4 = Pdef(\son4, Pbind(\instrument, \audio4,
