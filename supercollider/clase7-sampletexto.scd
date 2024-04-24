@@ -36,12 +36,13 @@ Synth(\s0);
 
 // Listo para secuenciar y procesar
 TempoClock.tempo=(120/60)/4;
-
+// -36 DO,
 (
 ~s1=Pdef(\s1, Pbind(\instrument, \m0,
-	\dur, 1/8,
+	\dur, 1/16,
 	\rate, Pseq([-32, -30, -28, -27].pyramid, inf).midicps,
 	\sp, Pseq([0.1, 0.2, 0.1, 0, Pn(0.15, 4)].mirror, inf),
+	\amp, 0.6,
 	\out, 0
 ))
 );

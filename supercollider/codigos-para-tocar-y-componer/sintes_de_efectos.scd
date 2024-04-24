@@ -30,4 +30,16 @@ var del, env;
 
 // Modificación de efectos
 ~rev.set(\mix, 0.5, \room, 0.5, \damp, 0.5);
-~del.set(\mdt, 0.5, \dt, 0.25, \dct, 2);
+~del.set(\mdt, 0.5, \dt, 0.25, \dct, 3);
+
+
+
+
+
+
+
+
+
+
+
+
