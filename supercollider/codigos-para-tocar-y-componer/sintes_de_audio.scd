@@ -102,12 +102,6 @@ SynthDef(\audio6, {|rate=1, sp=0, at=0.001, sus=1, rel=0.001, pan=0, amp=1, out=
 );
 );
 
-// Activar efecto
-~rev=Synth(\rev); // 9 Reverberación
-
-// Modificación de efecto
-~rev.set(\mix, 0.5, \room, 0.5, \damp, 0.5);
-
 // Probar sonidos
 
 Synth(\audio1);

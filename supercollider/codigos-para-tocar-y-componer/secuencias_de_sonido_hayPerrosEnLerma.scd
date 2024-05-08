@@ -3,12 +3,12 @@
 //==================================
 
 // Instrucciones:
-// 1 primero declara los buffers y synthdefs del documento sintes_de_sonido.scd
-// 2 declara el Pdef
-// 3 declara play
+// 1 primero declara los buffers y synthdefs del documento sintes_de_audio.scd
+// 2 declara los Pdef de este documento
+// 3 declara play en la parte de abajo
 // 4 modifica los valores del Pdef y declara al vuelo para hacer live coding
 
-// establece el tempo de la pieza. 60/120 equivale a un tempo 0 bpm de 120
+// establece el tempo de la pieza. 60/120 equivale a un tempo 60 bpm donde la negra es igual a 1
 TempoClock.tempo=60/120;
 
 (
