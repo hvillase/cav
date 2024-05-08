@@ -18,12 +18,12 @@ s.boot; // PRENDER SuperCollider
 
 // Ruta en Linux para declarar buffers
 (
-b = Buffer.read(s, "/home/hernani/cav/sonidos/git1-m.wav");
-c = Buffer.read(s, "/home/hernani/cav/sonidos/perc1-s.wav");
-d = Buffer.read(s, "/home/hernani/cav/sonidos/perc2-m.wav");
-e = Buffer.read(s, "/home/hernani/cav/sonidos/tmb1-s.wav");
-f = Buffer.read(s, "/home/hernani/cav/sonidos/sn1-s.wav");
-g = Buffer.read(s, "/home/hernani/cav/sonidos/grave-s.wav");
+b = Buffer.read(s, thisProcess.nowExecutingPath.dirname +/+ "/sonidos/git1-m.wav");
+c = Buffer.read(s, thisProcess.nowExecutingPath.dirname +/+ "/sonidos/perc1-s.wav");
+d = Buffer.read(s, thisProcess.nowExecutingPath.dirname +/+ "/sonidos/perc2-m.wav");
+e = Buffer.read(s, thisProcess.nowExecutingPath.dirname +/+ "/sonidos/tmb1-s.wav");
+f = Buffer.read(s, thisProcess.nowExecutingPath.dirname +/+ "/sonidos/sn1-s.wav");
+g = Buffer.read(s, thisProcess.nowExecutingPath.dirname +/+ "/sonidos/grave-s.wav");
 );
 
 // Ruta en Mac

@@ -7,10 +7,10 @@ SampleTexto2.help;
 ~a=SampleTexto2.new;
 
 //arrastra tu carpeta de sonidos depués de los dos puntos y declara la línea para cargar los sonidos
-~a.init(path: "/home/hvillase/cav/sonidos");
+~a.init(path: thisProcess.nowExecutingPath.dirname +/+ "/sonidos");
 
 // toca el sonido del índice cero
-~a.st(6).play;
+~a.st(2).play;
 
 // separa los sonidos en mono y estéreo
 ~a.stsel;
